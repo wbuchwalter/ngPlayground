@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'babel-loader',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose config Skipping project config: /Users/Will/.npmrc. (matches userconfig)
+5 verbose cache add [ 'babel-loader', null ]
+6 verbose cache add name=undefined spec="babel-loader" args=["babel-loader",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'babel-loader',
+7 verbose parsed url   path: 'babel-loader',
+7 verbose parsed url   href: 'babel-loader' }
+8 silly lockFile d87d642d-babel-loader babel-loader
+9 verbose lock babel-loader /Users/Will/.npm/d87d642d-babel-loader.lock
+10 silly lockFile d87d642d-babel-loader babel-loader
+11 silly lockFile d87d642d-babel-loader babel-loader
+12 verbose addNamed [ 'babel-loader', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 3cb9c35b-babel-loader babel-loader@
+15 verbose lock babel-loader@ /Users/Will/.npm/3cb9c35b-babel-loader.lock
+16 silly addNameRange { name: 'babel-loader', range: '*', hasData: false }
+17 verbose request where is /babel-loader
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 165c46f97c8f8aee
+20 verbose url raw /babel-loader
+21 verbose url resolving [ 'https://registry.npmjs.org/', './babel-loader' ]
+22 verbose url resolved https://registry.npmjs.org/babel-loader
+23 verbose request where is https://registry.npmjs.org/babel-loader
+24 info trying registry request attempt 1 at 19:29:15
+25 verbose etag "CV1UYZZR4RH4MKRAU0DMPHPUV"
+26 http GET https://registry.npmjs.org/babel-loader
+27 http 200 https://registry.npmjs.org/babel-loader
+28 silly registry.get cb [ 200,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"AXXIEB2JP29WQE8C1JH6E5LOJ"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '17829',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Mon, 25 May 2015 23:29:16 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '34',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1432596555.999862,VS0,VE0',
+28 silly registry.get     vary: 'Accept' } ]
+29 silly addNameRange number 2 { name: 'babel-loader', range: '*', hasData: true }
+30 silly addNameRange versions [ 'babel-loader',
+30 silly addNameRange   [ '4.0.0',
+30 silly addNameRange     '4.1.0',
+30 silly addNameRange     '4.2.0',
+30 silly addNameRange     '4.3.0',
+30 silly addNameRange     '5.0.0',
+30 silly addNameRange     '5.1.0',
+30 silly addNameRange     '5.1.2',
+30 silly addNameRange     '5.1.3' ] ]
+31 verbose addNamed [ 'babel-loader', '5.1.3' ]
+32 verbose addNamed [ '5.1.3', '5.1.3' ]
+33 silly lockFile 8766973f-babel-loader-5-1-3 babel-loader@5.1.3
+34 verbose lock babel-loader@5.1.3 /Users/Will/.npm/8766973f-babel-loader-5-1-3.lock
+35 silly lockFile e056611b-el-loader-babel-loader-5-1-3-tgz https://registry.npmjs.org/babel-loader/-/babel-loader-5.1.3.tgz
+36 verbose lock https://registry.npmjs.org/babel-loader/-/babel-loader-5.1.3.tgz /Users/Will/.npm/e056611b-el-loader-babel-loader-5-1-3-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-loader/-/babel-loader-5.1.3.tgz',
+37 verbose addRemoteTarball   '9564115628c2fac900c97045740f3c70d014476d' ]
+38 info retry fetch attempt 1 at 19:29:16
+39 verbose fetch to= /var/folders/gd/vgg6rff15j5g8qgqrt8hl9100000gn/T/npm-33238-5b4mmgIO/registry.npmjs.org/babel-loader/-/babel-loader-5.1.3.tgz
+40 http GET https://registry.npmjs.org/babel-loader/-/babel-loader-5.1.3.tgz
+41 http 200 https://registry.npmjs.org/babel-loader/-/babel-loader-5.1.3.tgz
+42 silly lockFile e056611b-el-loader-babel-loader-5-1-3-tgz https://registry.npmjs.org/babel-loader/-/babel-loader-5.1.3.tgz
+43 silly lockFile e056611b-el-loader-babel-loader-5-1-3-tgz https://registry.npmjs.org/babel-loader/-/babel-loader-5.1.3.tgz
+44 silly lockFile 8766973f-babel-loader-5-1-3 babel-loader@5.1.3
+45 silly lockFile 8766973f-babel-loader-5-1-3 babel-loader@5.1.3
+46 silly lockFile 3cb9c35b-babel-loader babel-loader@
+47 silly lockFile 3cb9c35b-babel-loader babel-loader@
+48 error Error: EACCES, mkdir '/Users/Will/.npm/babel-loader/5.1.3'
+48 error  { [Error: EACCES, mkdir '/Users/Will/.npm/babel-loader/5.1.3']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/Users/Will/.npm/babel-loader/5.1.3' }
+49 error Please try running this command again as root/Administrator.
+50 error System Darwin 14.0.0
+51 error command "node" "/usr/local/bin/npm" "install" "babel-loader" "--save"
+52 error cwd /Users/Will/GitHub/ngPlayground
+53 error node -v v0.10.33
+54 error npm -v 1.4.28
+55 error path /Users/Will/.npm/babel-loader/5.1.3
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/Users/Will/.npm/babel-loader/5.1.3'
+59 verbose exit [ 3, true ]
